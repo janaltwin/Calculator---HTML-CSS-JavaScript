@@ -1,15 +1,20 @@
+body{
+    background-color: darkgray;
+}
 .container {
     max-width: 400px;
     margin: 10vh auto 0 auto;
-    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+    box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
     border: 3px solid gray;
     background-color: #F6EBFF;
+    border-radius: 6px;
 }
 
 .label{
     height: 0px;
     text-align: right;
     font-style: italic;
+    margin-right: 2px;
 }
 
 #display {
@@ -27,7 +32,8 @@
     margin: 5px;
     display: grid;
     border-bottom: 1px solid #999;
-    border-left: 1px solid#999;
+    border-left: .2px solid #999;
+    border-right: 1px solid#999;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
